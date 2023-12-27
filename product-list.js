@@ -2,19 +2,19 @@ const products = [
     {
         id: '1',
         title: "Jopa",
-        image: 'img/person-icon.jpg',
+        image: 'person-icon.jpg',
         price: 9.99
     },
     {
         id: '2',
         title: "Jopa",
-        image: 'img/person-icon.jpg',
+        image: 'mirror-icon.jpg',
         price: 9.99
     },
     {
         id: '3',
         title: "Jopa",
-        image: 'img/person-icon.jpg',
+        image: 'room-icon.jpg',
         price: 9.99
     }
 ];

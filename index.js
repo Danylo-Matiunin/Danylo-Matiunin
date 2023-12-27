@@ -1,18 +1,8 @@
-const greetings = ['qew', 'fdgv', 'gfd', 'fdgf'];
-
-function getRandomItem(arr) {
-    return arr[Math.floor(Math.random() * arr.length)];
-}
-
-const headerTitle = document.querySelector('.passion-menu__logo');
-
-function updateHeaderText() {
-    headerTitle.innerText = getRandomItem(greetings);
-}
-
-setInterval(updateHeaderText, 1000);
-
-const clockContainer = document.querySelector('.clock');
-
-setInterval(() => clockContainer.innerText = (new Date()).toLocaleTimeString('en-GB'), 1000);
-
+document.addEventListener('partialsLoaded', () => {
+    import('./product-list__carousel.js');
+    import('./product-list.js');
+    import('./list.js');
+    import('./clock.js');
+    import('./title.js');
+    import('./product-carousel-animated.js');
+});
